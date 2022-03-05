@@ -1,3 +1,5 @@
+//import { PRODUCTS } from "./getdata.JSON";//
+
 let carritoDeCompras = [];
 
 const contenedorProductos = document.getElementById("contenedor-productos");

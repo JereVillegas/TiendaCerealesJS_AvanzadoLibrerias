@@ -1,0 +1,10 @@
+const PRODUCTS = []
+
+fetch ('/data.json')
+.then ((resp) => resp.json())
+.then ((producto) => {
+    producto.forEach(item => {
+        PRODUCTS.push(item);
+        })});
+    
+    export {PRODUCTS}
